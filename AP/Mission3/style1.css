@@ -8,9 +8,9 @@ body{
 
 form{
     background-color: rgba(182, 197, 21, 0.496);
-    max-width: 65%;
+    max-width: 60%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -18,5 +18,17 @@ input[type="submit"]:hover{
     background-color: rgb(7, 207, 7);
 }
 div{
-    
+    text-align: center;
+    border: 1px dotted black;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    background-color: rgba(16, 236, 162, 0.632);
+}
+
+label{
+    color: rgb(41, 107, 35);
+
 }

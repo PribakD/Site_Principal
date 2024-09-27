@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Formulaire TEDx</title>
+</head>
+<body>
+    <form action="">
+        <h1>Formulaire d'inscription</h1>
+        <table border="0">
+            <tr><td><label for="pseudo">Pseudo*</label></td><td><input type="text" name="pseudo" placeholder="Votre pseudo" maxlength="32"></td></tr>
+            <tr><td><label for="password">Mot de passe</label></td><td><input type="password" name="password" placeholder="Votre mot de passe" maxlength="100"></td></tr>
+            <tr><td><label for="prenom">Prénom</label></td><td><input type="text" name="prenom" placeholder="Votre prénom" maxlength="40"></td></tr>
+            <tr><td><label for="mail">Adresse mail</label></td><td><input type="email" name="mail" placeholder="exemple@email.fr" maxlength="40"></td></tr>
+            <tr><td><label for="avatar">Avatar</label></td><td><input type="file" name="avatar" placeholder="choisir un fichier"></td></tr>
+            <tr><td><label for="pays">Pays</label></td><td><select name="pays" id="pays">
+                <option value="fr">France</option>
+                <option value="es">Espagne</option>
+                <option value="de">Allemagne</option>
+                <option value="it">Italie</option>
+            </select></td></tr>
+
+            <tr><td>Quel sont vos fruits préférés ?</td><td><input type="checkbox" id="f1" name="orange" value="Orange"><label for="f1">Orange</label><input type="checkbox" name="f2" placeholder="Fraise"><label for="f2">Fraise</label><input type="checkbox" name="f3" placeholder="Poire"> <label for="f3">Poire</label></td></tr>
+            <tr><td>Civilité</td><td><input type="radio" name="r1"><label for="r1">Femme</label><input type="radio" name="r2"><label for="r2">Homme</label></td></tr>
+            <tr><td><label for="ville">Ville</label></td><td><input type="text" name="ville" placeholder="Votre Ville" maxlength="25"></td></tr>
+            <tr><td><label for="cp">Code postal</label></td><td><input type="text" name="cp" placeholder="Votre code postale" maxlength="5"></td></tr>
+            <tr><td><label for="adresse">Adresse</label></td><td><textarea rows="5" cols="50" id="adresse" placeholder="Votre adresse" maxlength="70"></textarea></td></tr>
+            <tr><td><label for="naissance">Date de Naissance</label></td><td><input type="date" name="naissance"></td></tr>
+            <tr><td><label for="jauge">Jauge</label></td><td><meter id="jauge" value="5" min="0" max="10"></meter></td></tr>
+            <tr><td><label for="tel">Téléphone</label></td><td><input type="text" name="tel" placeholder="0623456789"maxlength="10"></td></tr>
+            <tr><td><label for="search">Recherche</label></td><td><input type="text" name="search" placeholder="votre recherche" maxlength="50"></td></tr>
+            <tr><td><label for="lien">url</label></td><td><input type="text" name="lien" placeholder="Entrez un lien url" maxlength="50"></td></tr>
+            <tr><td><label for="couleur">Couleur</label></td><td><input type="color" id="couleur" name="couleur" value="#000000"></td></tr>
+        </table>
+        <input type="submit" value="Valider"> <br>
+        <a href="mission3.html">Retour à la page d'accueil</a>
+    </form>
+</body>
+</html>

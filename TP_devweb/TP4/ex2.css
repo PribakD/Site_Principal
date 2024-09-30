@@ -1,0 +1,44 @@
+header
+{
+    background-color: rgba(239, 21, 21, 0.853);
+    margin: auto;
+    height: 120px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.intro{
+    background-color: rgba(11, 29, 148, 0.748);
+    width: 487px;
+    height: 500px;
+    float: left;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+
+}
+.titre1{
+    background-color: antiquewhite;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 5px;
+
+}
+
+footer{
+    background-color: rgba(239, 21, 21, 0.853);
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    clear: both;
+}
+body{
+    background-color: gold;
+}

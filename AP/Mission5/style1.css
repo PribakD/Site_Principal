@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+label[for="box"], #box {
+    display: none;
+}
+
+nav {
+    background-color: #5857c3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #3333aa;
+}
+
+/* Dropdown Styles */
+nav ul li ul.partie {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #3333aa;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li ul.partie li {
+    width: 180px;
+    float: none;
+}
+
+nav ul li:hover ul.partie {
+    display: block;
+}
+
+nav ul li ul.partie li a {
+    padding: 10px;
+    background-color: #4444cc;
+    color: white;
+}
+
+nav ul li ul.partie li a:hover {
+    background-color: #5555dd;
+}
+
+/* Clear floats */
+nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}

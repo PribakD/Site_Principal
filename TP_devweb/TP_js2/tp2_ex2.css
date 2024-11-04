@@ -1,0 +1,35 @@
+body{
+    background-color: wheat;
+}
+
+table{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: lightseagreen;
+    margin: 15%;
+}
+
+
+
+input.t{
+    background-color: rgba(239, 218, 156, 0.841);
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+}
+input.t34{
+    background-color: rgba(15, 239, 15, 0.866);
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+}
+button{
+    background-color: aqua;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: lightblue;
+    border: 2px solid black;
+    color: black;
+    transition: 150ms;
+}

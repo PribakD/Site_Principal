@@ -1,0 +1,29 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(16, 104, 204);
+    color: white;
+    padding: 1px;
+}
+.liste{
+    margin: auto 33% 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(198, 196, 196)
+}
+
+footer{
+    background-color: rgb(16, 104, 204);
+    color: white;
+}
+
+.exo{
+    margin: auto 5% 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(198, 196, 196)
+}

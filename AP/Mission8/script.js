@@ -104,21 +104,26 @@ function af_lst(){
 function divisible(){
     let a = Number(prompt("entrez un nombre ?"));
     let b = Number(prompt("entrez un nombre ?"));
+    let x = String(a);
+    let y = String(b)
     if(a%b == 0){
-        alert(toString(a)+' est divisible par '+toString(b))
+        alert(x+' est divisible par '+y)
         return true
     }
-    alert(a," pas divisible par ",b)
+    alert(x+" pas divisible par "+y)
 }
 
 function af_divi(){
     const code = `function divisible(){ <br>
     let a = Number(prompt("entrez un nombre ?"));<br>
     let b = Number(prompt("entrez un nombre ?"));<br>
+    let x = String(a);<br>
+    let y = String(b)<br>
     if(a%b == 0){<br>
-        alert(a,' est divisible par ',b)<br>
+        alert(x+' est divisible par '+y)<br>
+        return true<br>
     }<br>
-    alert(a," pas divisible par ",b)<br>
+    alert(x+" pas divisible par "+y)<br>
 }`
     document.write(code)
 }
@@ -196,7 +201,7 @@ function af_car(){
 
 function racine(){
     let a = Number(prompt("entrez un nombre ?"));
-    alert(Math.sqrt(a))
+    alert(Math.sqrt(a));
 }
 
 function af_ra(){
@@ -204,13 +209,58 @@ function af_ra(){
     let a = Number(prompt("entrez un nombre ?"));<br>
     alert(Math.sqrt(a))<br>
 }`
-    document.write(code)
+    document.write(code);
 }
 
 function pair(){
     let a = Number(prompt("entrez un nombre ?"));
+    let x = String(a)
     if(a%2==0){
-        alert(a+' est pair')
+        alert(x+' est pair');
+        return true;
     }
-    
+    alert(x+' impair');
+}
+function af_pair(){
+    const code = `function pair(){<br>
+    let a = Number(prompt("entrez un nombre ?"));<br>
+    let x = String(a)<br>
+    if(a%2==0){<br>
+        alert(x+' est pair')<br>
+        return true<br>
+    }<br>
+    alert(x+' impair')<br>
+}`
+    document.write(code)
+}
+
+function multiple(){
+    let a = Number(prompt('entrez une valeur'));
+    let b = Number(prompt('la taille de la liste des multiples'));
+    let c = 0
+    let lst = [];
+    while(lst.length!= b){
+        c++ ;
+        if(c%a==0){
+            lst.push(c);
+        }
+    }
+    alert(lst)   
+}
+
+function af_multi(){
+    const code = `function multiple(){<br>
+    let a = Number(prompt('entrez une valeur'));<br>
+    let b = Number(prompt('la taille de la liste des multiples'));<br>
+    let c = 0<br>
+    let lst = [];<br>
+    while(lst.length!= b){<br>
+        c+=1 ;<br>
+        if(c%a==0){<br>
+            lst.push(c);<br>
+        }<br>
+    }<br>
+    alert(lst)<br>
+}`
+    document.write(code)
 }

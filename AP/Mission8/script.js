@@ -64,7 +64,7 @@ function facto(){/*Fonction qui demande à l'utilisateur d'entrer un nombre et r
     }
     alert(x)
 }
-function af_fac(){
+function af_fac(){ /* fonction qui permet d'afficher dans une autre page le code de la fonction factorielle*/
     const code = `function facto(){/*Fonction qui demande à l'utilisateur d'entrer un nombre et renvoie la factorielle de ce nombre */<br>
     var a = Number(prompt("entrez un nombre")); /*on demande à l'utilisateur d'entrer une valeur*/<br>
     while(a<=0){/* tant que la valeur entrée précédemment n'est pas positif l'utilisateur doit entrez à nouveau une nouvelle valeur*/<br>
@@ -77,8 +77,8 @@ function af_fac(){
         x*=n /* à chaque tour de boucle on multiplie la valeur de x avec celle de n */ <br>
     }<br>
     alert(x)
-}`
-    document.write(code)
+}` /* on déclare une constante à laquelle on ajoute la chaine de charactere du code on rajoute la balise br pour sauter des lignes et rendre le tout plus lisible*/
+    document.write(code) /* on affiche la constante code dans une autre page*/ 
 }
 function liste(){ /* Fonction qui demande à l'utilisateur d'entrer plusieurs élément puis les ajoute à un tableau (Array) et l'affiche */
     let lst = []; /* on déclare le tableau dans une variable */

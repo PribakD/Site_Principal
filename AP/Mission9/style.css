@@ -1,0 +1,13 @@
+body{
+    margin: auto;
+    background-color: lightgray;
+}
+
+.question{
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    width: 40%;
+
+}

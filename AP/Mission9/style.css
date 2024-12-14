@@ -1,13 +1,34 @@
 body{
-    margin: auto;
     background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    
 }
-
-.question{
+form{
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
+    width: 70%;
+    border-radius: 15px;
+    padding: 2%;
+}
+.question{
+    background-color: rgba(180, 226, 54, 0.825);
     margin: 2%;
     padding: 2%;
     border-radius: 15px;
-    width: 40%;
-
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    text-align: right;
+    color: rgba(192, 42, 42, 0.91);
+    background-color: blueviolet;
+}
+button{
+    margin-bottom: 10%;
+    width: 20%;
+    background-color: rgb(29, 188, 117);
+    border-radius: 15px;
 }

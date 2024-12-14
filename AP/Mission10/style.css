@@ -1,0 +1,24 @@
+.description{
+    float: left;
+    margin: 2%;
+    width: 40%;
+}
+body{
+    background-color: rgb(102, 211, 225);
+}
+header{
+    background-color: rgb(62, 65, 209);
+}
+table{
+    border-collapse: collapse;
+}
+
+tr{
+    border: 1px solid gray;
+}
+.ligne{
+    background-color: rgb(62, 65, 209);
+}
+.bonne_rep{
+    color: rgb(22, 228, 22);
+}

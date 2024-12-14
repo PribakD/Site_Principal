@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>BTS SIO Lycée Parc de Vilgénis</h1>
+        <h1>Correction QCM</h1>
     </header>
     <p>Questionnaire sous forme de QCM. Les questions peuvent comporter une ou plusieurs bonnes réponses</p>
     <form id="qcm">
@@ -18,7 +18,7 @@
             <p>Quel est la capitale du Brésil</p>
             <ul>
                 <li>
-                    <label><input type="radio" name="question1" value="0" data-correct="false">Rio de Janeiro</label> <!-- on crée un attribut personnalisé pour définir quelle réponse est la bonne et quelles réponses sont fausses pour ensuite pouvoir dans le fichier JS utilisé cet attribut pour comparer savoir si l'utilisateur a eu bon et pouvoir attribuer des points par exemple -->
+                    <label><input type="radio" name="question1" value="0" data-correct="false">Rio de Janeiro</label> 
                 </li>
                 <li>
                     <label><input type="radio" name="question1" value="1" data-correct="false">Sao Paulo</label>
@@ -192,10 +192,7 @@
         </fieldset>
     </form>    
     <center>
-        <button onclick="testqcm()">Correction</button>
-        <button onclick="corrige()">Corrigé</button>
-        <button onclick="reinitialise_quest()">Effacer</button><br>
-        <p id="result"></p>
+        <button onclick="fermer_page()"> fermer</button>
     </center>
     
 </body>

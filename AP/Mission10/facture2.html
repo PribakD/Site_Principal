@@ -4,11 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        
+        <h3>Nom de la compagnie</h3>
+        <p>Adresse postale</p>
+        <p>Détails du contact</p>
     </header>
+    <div class="description">
+        <p><strong>Destinataire</strong></p>
+        <hr color="black">
+        <p>Nom</p>
+        <p>Nom de la société</p>
+        <p>Adresse postale</p>
+        <p>Téléphone</p>
+        <p>Email</p>
+    </div>
+    <div class="description">
+        <p><strong>Envoyer à</strong></p>
+        <hr color="black">
+        <p>Nom</p>
+        <p>Nom de la société</p>
+        <p>Adresse postale</p>
+        <p>Téléphone</p>
+        <p>Email</p>
+    </div>
+    <table>
+        <tr class="ligne">
+            <td>Description</td>
+            <td>Quantité</td>
+            <td>Prix unitaire</td>
+            <td>Total</td>
+        </tr>
+        <tr class="row" id="modeleLigne">
+            <td><input type="text" name="desc" class="input desc" value="desc3"></td>
+            <td><input type="text" name="qte" class="input qte" value="0"></td>
+            <td><input type="text" name="prix" class="input prix" value="0"></td>
+            <td><input type="text" name="total" readonly="readonly" value="0"></td>
+        </tr>
+        <tr class="row last row" id="lastLigne">
+            <td><input type="text" name="desc" class="input desc" value="desc4"></td>
+            <td><input type="text" name="qte" class="input qte" value="0"></td>
+            <td><input type="text" name="prix" class="input prix" value="0"></td>
+            <td><input type="text" name="total" readonly="readonly" value="0"></td>
+        </tr>
+
+    </table>
+
+    <button onclick="ajouterLigne()">Ajouter une ligne</button>
+    <button onclick="calculate()">Calculer</button>
+    <button onclick="">Remplir automatiquement</button>
+    <button onclick="">Annuler</button>
 </body>
 </html>

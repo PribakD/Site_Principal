@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'enregistrement</title>
+</head>
+<body>
+    <h1>Enregistrement</h1>
+    <form action="/register" method="POST">
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required><br>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mdp">Mot de passe :</label>
+        <input type="password" id="mdp" name="mdp" required><br>
+
+        <label for="confirm_mdp">Confirmer mot de passe :</label>
+        <input type="password" id="confirm_mdp" name="confirm_mdp" required><br>
+
+        <label for="date_naissance">Date de naissance :</label>
+        <input type="date" id="date_naissance" name="date_naissance" required><br>
+
+        <label for="sexe">Sexe :</label>
+        <input type="radio" id="homme" name="sexe" value="homme">
+        <label for="homme">Homme</label>
+        <input type="radio" id="femme" name="sexe" value="femme">
+        <label for="femme">Femme</label><br>
+
+        <button type="submit">S'enregistrer</button>
+    </form>
+</body>
+</html>
